@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Parisienne&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Parisienne&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  height: 100vh;
+  font-family: "Parisienne", cursive;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  padding: 10px;
+}
+
+.main_container {
+  background-color: #f98b88;
+  padding: 10px;
+  width: 50%;
+  height: 100%;
+}
+
+header {
+  text-align: center;
+  padding-top: 10px;
+  font-family: "Parisienne", cursive;
+  font-size: 1.7rem;
+}
+.side_container {
+  background-image: url("https://rukminim1.flixcart.com/image/612/612/khuvxjk0-0/calendar/i/j/g/2021-motivational-table-calendar-a5-size-8-5-x-5-5-inch-12-pages-original-imafxrxwxzxedqpm.jpeg?q=70");
+  background-blend-mode: darken;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #ffe5b4;
+  width: 50%;
+  height: 100%;
+  border-top-right-radius: 35px;
+  border-bottom-right-radius: 35px;
+}
+.input_container{
+  width: 80%;
+}
